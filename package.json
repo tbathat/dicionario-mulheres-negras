@@ -1,0 +1,12 @@
+{
+  "name": "dicionario-mulheres-negras",
+  "version": "1.0.0",
+  "description": "Dicionário contendo grnades mulheres negras que influenciaram o passado, o presente e o futuro!",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tabatha Pradier",
+  "license": "ISC"
+}
