@@ -50,16 +50,26 @@ function carregaDicionario() {
     },
   };
 
+  let content = document.getElementById("content");
+
   for (let bio in biografias) {
-    console.log(
-      (bio +=
-        " Nome: " +
+    content.innerHTML +=
+      '<div class="card">' +
+        '<img src="">' +
+        biografias[bio].imagem +
+        "<details>" +
+        "<summary>" +
         biografias[bio].nome +
-        " Minibio: " +
+        "<p>" +
         biografias[bio].descricao +
-        " Citação: " +
-        biografias[bio].citacao)
-    );
+        "</p>" +
+        "<blockquote" >
+      +"<q>" +
+        biografias[bio].citacao +
+        "</q>" +
+        "</blockquote>" +
+        "</details>" +
+        "</div>";
   }
 }
 
